@@ -1,0 +1,25 @@
+
+.navbar-nav{
+	background: black;
+}
+.nav-link{
+	color: white;
+
+}
+
+.nav-link:hover{
+	background-color: unset;
+	color: gold;
+}
+.tag{
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+	padding-left:8px;
+	padding-right:8px;
+	text-align:center
+}
+.open{
+	position:absolute;left:30px ;bottom:25px
+
+}

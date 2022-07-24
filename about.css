@@ -1,0 +1,27 @@
+#mu-about-us {
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 100px 0;
+
+}
+.mu-title {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.mu-subtitle {
+  font-size: 100x;
+  color: silver;
+}
+h2{
+    color: yellow;
+}
+P{
+    color: silver;
+    font-family: Helvetica;
+}
+
+

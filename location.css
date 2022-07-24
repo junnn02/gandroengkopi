@@ -1,0 +1,66 @@
+.navbar-nav{
+	background: black;
+	
+}
+.nav-link{
+	color: white;
+
+}
+
+.nav-link:hover{
+	background-color: unset;
+	color: gold;
+}
+
+body{
+	margin: 0;
+	pad
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+.tombol{
+	display: inline-block;
+	width: 65px;
+	height: 90px;
+	background: #DAA520;
+	margin: 20px;
+	border-radius: 50px;
+	box-sizing: 0px 15px -85px;
+	overflow: hidden;
+	position: relative;
+	color: black;
+}
+.tombol i{
+	/*transition: 0.2s linear;*/
+	font-size: 25px;
+	line-height: 90px;
+}
+.tombol:hover i{
+	transform: scale(1.0);
+	color: white;
+}
+.tombol::before{
+	content: "";
+	position: ;
+	width: 120px;
+	height: 20px;
+	left: 100%;
+	top: 100%;
+	transform: rotate(97deg);
+	background: whitesmoke;
+}
+.tombol:hover::before{
+	left: 10%;
+	top: 10%;
+	animation: aaa 0.7s 1;
+}
+
+.tag{
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+	padding-left:8px;
+	padding-right:8px;
+	text-align:center
+}

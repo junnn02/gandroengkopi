@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GANDROENG KOPI</title>
+
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+ <link href="css/bootstrap.css" rel="stylesheet">
+<style> 
+	body{
+		background-image: url(warung.jpg);
+		font-family: "Inconsolata", sans-serif;
+	}
+	h2{
+		font-family: 'Inconsolata', monospace;
+		font-family: 'Rubik Moonrocks', cursive;
+	}
+
+</style>
+	 <nav class="navbar navbar-expand-sm" style="background-color: #000;">
+        <div class="container">
+        	<img src="logo.png" width="60" height="60">
+            <ul class="navbar-nav"> 
+                <li class="nav-item">
+                    <a class="nav-link active" style="color: #fff;" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="location.html">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontak.html">Contact Us</a>
+                </li>
+
+            </ul>
+        </div>
+
+
+    </nav>
+   
+       <center> <h2 class="tag" id="app" style=" color: gold; font-size: 50px; margin-top: 60px"></h2></center> 
+    	</div>
+    	
+
+     <div class="open">
+    <h4><span class="tag">Open from 10am to 23pm</span></h4>
+</div> 
+
+
+
+<script>
+	var i=0, text;
+text = 'Selamat Datang Para Jamaah Ngopi';
+
+function tulisan(){
+	if(i < text.length){
+		document.getElementById('app').innerHTML += text.charAt(i);
+		i++;
+		setTimeout(tulisan, 100)
+	}
+}
+tulisan();
+</script>
+</body>
+</header>
+</body>
+</html>
